@@ -1,0 +1,71 @@
+/* Página toda */
+*{
+    margin: 0;
+    font-family: 'Rammetto One', cursive;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Nav bar menu e seus detalhes */
+nav{
+    width: 11%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    transition-duration: 0.5s;
+    box-shadow: 10px -9px 30px brown;
+    color: white;
+
+}
+
+
+
+/* Banner */
+header{
+    width: 100%;
+    height: 128px;
+    background-color: coral;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    
+}
+
+form{
+    text-align: center;
+}
+
+.mpbrasil{
+    width: 368px;
+    height: 328px;
+    margin-left: 35%;
+}
+
+.mapabrasil{
+    border: 1px solid black;
+}
+
+.estados{
+    width: 100px;
+    height: 60px;
+}
+
+.regiao{
+    text-align: center;
+}
+
+.fundo{
+    margin-left: 160px;
+    
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TakeTrip</title>
+
+    <link rel="stylesheet" href="cadastre-se.css">
+
+
+
+</head>
+
+<header>
+    <div class="banner"></div>
+    <h1 class="btn">TakeTrip</h1>
+</header>
+
+<body>
+
+    <nav style='left:-12%'>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a onclick="carregarHome()">Home</a>
+                </li>
+                <li>
+                    <a onClick="carregarLogin()">Login</a>
+                </li>
+                <li>
+                    <a onClick="carregarMapa()">Mapa</a>
+                </li>
+                <li>
+                    <a onClick="carregarRanking()">Ranking</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Conteúdo -->
+    <section class="carregarFormulario()">
+        <div class="row">
+ 
+    </section>
+
+
+
+    <!-- Script sobre o menu -->
+    <script>
+        let btn = document.querySelector('.btn');
+        let estado = false;
+        let nav = document.querySelector('nav')
+
+
+        function navbar() {
+            if (estado == true) {
+                estado = false;
+                nav.style.left = '-12%';
+
+                console.log('fechado');
+            } else {
+                estado = true;
+                nav.style.left = '0%';
+                console.log('abrindo');
+
+
+            }
+
+        }
+
+
+        btn.addEventListener('click', navbar);
+
+    </script>
+
+    <script src="cadastre-se.js"></script>
+
+
+</body>
+
+</html>
