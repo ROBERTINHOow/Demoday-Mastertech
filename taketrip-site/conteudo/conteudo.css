@@ -89,19 +89,20 @@ footer{
     background-color: black;
     color: white;
     width: 100%;
-    height: 15%;
+    height: 21%;
 
 }
 footer ul{
     float: left;
     list-style-type: none;
-    margin: 0px 121px;
+    margin: 0px 10px;
 
 }
 footer ul li{
     float: right;
     margin: 0px 73px;
 }
+
 
 .contato{
     text-align: center;
