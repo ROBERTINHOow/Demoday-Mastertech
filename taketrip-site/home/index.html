@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TakeTrip</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="taketrip"></div>
+        <h1 class="btn">TakeTrip</h1>
+    </header>
+
+
+    <nav style='left:-12%'>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a onClick="carregarHome()">Home</a>
+                </li>
+                <li>
+                    <a href="../login/login.html" onClick="carregarLogin()">Login</a>
+                </li>
+                <li>
+                    <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
+                </li>
+                <li>
+                    <a href="../ranking/ranking.html" onClick="carregarRanking()">Ranking</a>
+                </li>
+            </ul>
+        </div>
+        <div class="redes-sociais">
+            <img class="rs" src="" alt="f">
+            <img class="rs" src="" alt="t">
+            <img class="rs" src="" alt="i">
+        </div>
+
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <img class="banner-style" src="../img/fundo/banner1.jpg">
+        <img class="banner-style" src="../img/fundo/banner2.jpg">
+        <img class="banner-style" src="../img/fundo/banner3.jpg">
+
+    </section>
+
+    <section class="sobre">
+        <h2>Bem Vindo</h2>
+        <br>
+        <div class="texto">
+            <p class="t1">Você esta no melhor lugar se vai ou pretende conhecer</p>
+            <p class="t2">novos lugares,ou simplesmente aproveitar o que tem de melhor</p>
+            <p class="t3">perto de você. O nosso maior proposito é divulgar os melhores </p>
+            <p class="t4">para se aproveitar o seu dia.Apontando shows, peças, historia </p>
+            <p class="t5">dos lugares para você aproveitar mais</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Script sobre o menu -->
+    <script>
+        let btn = document.querySelector('.btn');
+        let estado = false;
+        let nav = document.querySelector('nav')
+
+
+        function navbar() {
+            if (estado == true) {
+                estado = false;
+                nav.style.left = '-12%';
+
+                console.log('fechado');
+            } else {
+                estado = true;
+                nav.style.left = '0%';
+                console.log('abrindo');
+
+
+            }
+
+        }
+
+
+        btn.addEventListener('click', navbar);
+
+
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- Roda pé -->
+    <footer>
+        <p class="contato">Contato</p>
+        <ul>
+            <li>
+                <p>Telefone: (11)4044-9723</p>
+            </li>
+            <li>
+                <p>Site: www.taketrip.com.br</p>
+            </li>
+            <li>
+                <p>Email: taketrip@viagem.com</p>
+            </li>
+        </ul>
+
+
+    </footer>
+
+</body>
+
+</html>

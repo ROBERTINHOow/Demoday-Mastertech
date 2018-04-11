@@ -16,42 +16,55 @@
 
 </head>
 
-<header>
-    <div class="banner"></div>
-    <h1 class="btn">TakeTrip</h1>
-</header>
-
 <body>
 
+    <!-- Nav Bar -->
     <nav style='left:-12%'>
         <div class="menu">
             <ul>
                 <li>
-                    <a class="btn" href="../index.html" onClick="carregarHome()">Home</a>
+                    <a onClick="carregarHome()">Home</a>
                 </li>
                 <li>
-                    <a  class="btn" href="../login/login.html" onClick="carregarLogin()">Login</a>
+                    <a href="../login/login.html" onClick="carregarLogin()">Login</a>
                 </li>
                 <li>
-                    <a class="btn" href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
+                    <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
                 </li>
                 <li>
-                    <a class="btn" onClick="carregarRanking()">Ranking</a>
+                    <a href="../ranking/ranking.html" onClick="carregarRanking()">Ranking</a>
                 </li>
             </ul>
         </div>
+        <div class="redes-sociais">
+            <img class="rs" src="" alt="f">
+            <img class="rs" src="" alt="t">
+            <img class="rs" src="" alt="i">
+        </div>
+
     </nav>
 
+    <header>
+        <div class="banner"></div>
+        <h1 class="btn">TakeTrip</h1>
+    </header>
 
     <!-- Conteúdo -->
+    <section>
 
-    <section class ="container">
-        <div class="row">
-                   
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="senha" id="">
+            <label for="">Senha</label>
+            <input type="password" name="senha" id="">
+            <button disabled="disabled">Logar</button>
+            <p><a href="#"> Esqueci a senha</a></p>
+            <p><a href="#">Cadsstre-se</a></p>
         </div>
+
     </section>
 
-    
+
 
     <!-- Script sobre o menu -->
     <script>
@@ -82,6 +95,25 @@
     </script>
 
     <script src="login.js"></script>
+
+    <!-- Roda pé -->
+    <footer>
+        <p class="contato">Contato</p>
+        <ul>
+            <li>
+                <p>Telefone: (11)4044-9723</p>
+            </li>
+            <li>
+                <p>Site: www.taketrip.com.br</p>
+            </li>
+            <li>
+                <p>Email: taketrip@viagem.com</p>
+            </li>
+        </ul>
+
+
+    </footer>
+
 
 </body>
 

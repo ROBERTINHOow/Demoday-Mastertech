@@ -1,0 +1,170 @@
+/* Página toda */
+*{
+    margin: 0;
+    font-family: 'Rammetto One', cursive;
+   
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Nav bar menu e seus detalhes */
+nav{
+    width: 11%;
+    height: auto;
+    margin: 3% 0% 0%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition-duration: 0.5s;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+
+.menu ul{
+    margin: 25px 0px;
+    border-bottom-color: indigo;    
+
+}
+
+.menu ul li{
+    margin: 23px 0px;
+    list-style-type: none;    
+
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+.redes-sociais{
+    border: 23px white;
+}
+.rs{
+    margin: 4px 8px 10px;
+
+}
+
+
+
+
+/* Titulo da Pagina */
+header{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;    
+    
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    
+}
+
+form{
+    text-align: center;
+
+}
+
+/*  Banner  */
+
+.banner{
+    width:100%;
+    height: 59%;
+    position: relative;
+}
+
+.banner-style{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+
+/* Section sobre */
+.sobre{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fundo/fundo-rio2.jpg);
+    background-size: 100% auto;
+    overflow: hidden;
+
+}
+
+.sobre h2{
+    font-size: 36px;
+    margin: 9% 0% 0%;
+    text-align: center;
+
+}
+
+.texto{
+    font-size: 25px;
+    margin: 9% 29% 4%;
+    width: 100%;
+}
+.t1{
+    margin: 0% 20%;
+}
+.t2{
+
+    margin: 0% 14%;
+}
+.t3{
+
+    margin: 0% 14%;
+}
+.t4{
+
+    margin: 0% 15%;
+}
+.t5{
+
+    margin: 0% 33%;
+}
+
+
+
+
+/* roda pé */
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+
+}
+footer ul{
+    list-style-type: none;
+    margin: 0px 121px;
+
+}
+
+.contato{
+    text-align: center;
+    margin: 0px 0px 4px;
+}
+

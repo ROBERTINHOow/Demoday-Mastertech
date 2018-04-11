@@ -16,24 +16,52 @@ body{
 }
 
 /* Nav bar menu e seus detalhes */
+
+/* Nav bar menu e seus detalhes */
 nav{
     width: 11%;
-    height: 100%;
-    background-color: black;
-    position: fixed;
+    height: auto;
+    margin: 3% 0% 0%;
+    background-color: rgba(0, 0, 0, 0.9);
     transition-duration: 0.5s;
-    box-shadow: 10px -9px 30px brown;
     color: white;
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+
+.menu ul{
+    margin: 25px 0px;
+    border-bottom-color: indigo;    
+
+}
+
+.menu ul li{
+    margin: 23px 0px;
+    list-style-type: none;    
+
+}
+a{
+    text-decoration: none; 
+    color: white;
+}
+.redes-sociais{
+    border: 23px white;
+}
+.rs{
+    margin: 4px 8px 10px;
 
 }
 
 
-
-/* Banner */
+/* Titulo da Pagina */
 header{
     width: 100%;
-    height: 128px;
-    background-color: coral;
+    background-color: black;
+    position: fixed;
+    z-index: 1;    
+    
 }
 
 header h1{
@@ -44,12 +72,16 @@ header h1{
 
 form{
     text-align: center;
+
 }
+
+/* CONTEUDO PG */
 
 .mpbrasil{
     width: 368px;
     height: 328px;
     margin-left: 35%;
+    margin-top: 4%;
 }
 
 .mapabrasil{
@@ -68,4 +100,26 @@ form{
 .fundo{
     margin-left: 160px;
     
+}
+
+
+
+/* roda pé */
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+
+}
+footer ul{
+    list-style-type: none;
+    margin: 0px 121px;
+
+}
+
+.contato{
+    text-align: center;
+    margin: 0px 0px 4px;
 }
