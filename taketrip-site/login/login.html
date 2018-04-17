@@ -23,7 +23,7 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a onClick="carregarHome()">Home</a>
+                    <a href="../home/index.html">Home</a>
                 </li>
                 <li>
                     <a href="../login/login.html" onClick="carregarLogin()">Login</a>
@@ -31,15 +31,12 @@
                 <li>
                     <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
                 </li>
-                <li>
-                    <a href="../ranking/ranking.html" onClick="carregarRanking()">Ranking</a>
-                </li>
             </ul>
         </div>
         <div class="redes-sociais">
-            <img class="rs" src="" alt="f">
-            <img class="rs" src="" alt="t">
-            <img class="rs" src="" alt="i">
+            <img class="rs" src="../img/face.png" alt="f">
+            <img class="rs" src="../img/twi.png" alt="t">
+            <img class="rs" src="../img/inst.png" alt="i">
         </div>
 
     </nav>
@@ -50,17 +47,22 @@
     </header>
 
     <!-- Conteúdo -->
-    <section>
+    <section class="card">
 
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="senha" id="">
-            <label for="">Senha</label>
-            <input type="password" name="senha" id="">
-            <button disabled="disabled">Logar</button>
-            <p><a href="#"> Esqueci a senha</a></p>
-            <p><a href="#">Cadsstre-se</a></p>
-        </div>
+            <h2>Login</h2>
+
+            <div>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Senha">
+            </div>
+
+            <div >
+                <button class="btn-1">Entrar</button>
+                <br>
+                <a class="usuario" href="../senha/senha.html">Esqueceu a senha?</a>
+                <a class="usuario" href="../cadastre-se/cadastre-se.html">Cadastre-se</a>
+                
+            </div>
 
     </section>
 

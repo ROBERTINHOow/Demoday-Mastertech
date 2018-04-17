@@ -59,6 +59,9 @@ a{
     border: 23px white;
 }
 .rs{
+    float: left;
+    width: 33px;
+    height: 38px;
     margin: 4px 8px 10px;
 
 }

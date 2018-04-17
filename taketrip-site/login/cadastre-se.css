@@ -40,6 +40,9 @@ a{
     border: 23px white;
 }
 .rs{
+    float: left;
+    width: 33px;
+    height: 38px;
     margin: 4px 8px 10px;
 
 }
@@ -126,6 +129,8 @@ input{
 
 /* roda pé */
 
+/* roda pé */
+
 footer{
     background-color: black;
     color: white;
@@ -149,4 +154,5 @@ footer ul li{
     text-align: center;
     margin: 0px 0px 4px;
 }
+
 
