@@ -24,4 +24,20 @@ function carregarMapa(){
 
 // Banner
 
-let banner = document.querySelector('.banner')
+let banner = document.querySelector('.banner img')
+let imagens = [
+  '../img/fundo/banner1.jpg', 
+  '../img/fundo/banner2.jpg',
+  '../img/fundo/banner3.jpg',
+  '../img/fundo/banner4.jpg',
+];
+let bannerAtivo = 1;
+
+setInterval(function(){
+  banner.src = imagens[bannerAtivo];
+  bannerAtivo++;
+
+  if(bannerAtivo == imagens.length){
+      bannerAtivo = 0;
+  }
+}, 1000);

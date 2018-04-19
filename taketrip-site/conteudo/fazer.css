@@ -2,19 +2,23 @@
 *{
     margin: 0;
     font-family: 'Rammetto One', cursive;
+   
 }
 
 html{
     width: 100%;
-    height: 100%;
+    height: 200%;
 }
 
 
 body{
     width: 100%;
     height: 100%;
-    background-image: url(../img/fundo/fundo-florianopolis.jpg);
+    overflow-x: hidden
 }
+
+
+
 
 /* Nav bar menu e seus detalhes */
 nav{
@@ -55,63 +59,48 @@ a{
     margin: 4px 8px 10px;
 }
 
-
+.introducao{
+    padding-bottom: 80px;
+}
 
 
 /* Titulo da Pagina */
 header{
     width: 100%;
     background-color: black;
-    position: relative;
+    position: fixed;
     z-index: 1;    
     
 }
 
+
 header h1{
     color: white;
+    text-align: center; 
+    margin-left: 0vw;   
+}
+
+form{
     text-align: center;
-    
+
 }
 
 
-/* Conteúdo Login */
 
-section h2{
-    margin: 35px;
-    font-size: 50px;
+
+/* Section sobre */
+
+.titulo{
     text-align: center;
-    color:black;
 }
 
-.card{
-    text-align: center;
-    margin: 6%;
-
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 23%;
+    margin-left: 2vw;
+    margin-bottom: 4vh;
 }
-
-.usuario{
-    color: black;
-    margin: 0px 7px;
-
-}
-
-section input{
-    margin: 67px 15px;
-    border-radius: 12px;
-    border-style: solid;
-    text-align: center;
-    font-size: 21px;
-}
-
-.btn-1{
-    margin: 10px;
-    border-radius: 9px;
-    border: none;
-    font-size: 27px;
-    background-color: black;
-    color: #ffffff;   
-}
-
 
 
 /* roda pé */
@@ -121,6 +110,8 @@ footer{
     color: white;
     width: 100%;
     height: 11%;
+    position: fixed;
+    bottom: 0;
 
 }
 footer ul{
@@ -139,3 +130,4 @@ footer ul li{
     text-align: center;
     margin: 0px 0px 4px;
 }
+

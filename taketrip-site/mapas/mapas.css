@@ -16,8 +16,6 @@ body{
 }
 
 /* Nav bar menu e seus detalhes */
-
-/* Nav bar menu e seus detalhes */
 nav{
     width: 11%;
     height: auto;
@@ -166,7 +164,7 @@ section div p{
 }
 
 .sudeste-1{
-    background-image: url(../img/fundo/fundo-rj.jpg);
+    background-image: url(../img/fundo/fundo-sudeste-1.jpg);
     background-attachment: fixed;
     background-size: cover;
 

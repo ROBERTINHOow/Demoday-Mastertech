@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TakeTrip</title>
-
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="informacoes.css">
 
     <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+
+    <script src="node_modules/axios/dist/axios.min.js"></script>
 
 </head>
 
@@ -20,18 +22,19 @@
         <h1 class="btn">TakeTrip</h1>
     </header>
 
-    <!-- NAV BAR -->
-    <nav style='left:-12%'>
+
+   <!-- NAV BAR -->
+   <nav style='left:-12%'>
         <div class="menu">
             <ul>
                 <li>
                     <a href="../home/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="../login/login.html">Login</a>
+                    <a href="../login/login.html" onClick="carregarLogin()">Login</a>
                 </li>
                 <li>
-                    <a href="../mapas/mapas.html">Mapa</a>
+                    <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
                 </li>
             </ul>
         </div>
@@ -43,30 +46,19 @@
 
     </nav>
 
-    <!-- Banner -->
-    <section class="banner">
-        <img class="banner-style" src="../img/fundo/banner1.jpg">
-    </section>
-
-    <section class="sobre">
-        <h2 class="th">Bem Vindo</h2>
-        <br>
-        <div class="texto">
-            <h3>O que é o Take trip?</h3>
-            <p>O take trip é o melhor lugar para conhecer novos lugares,</p>
-            <p>ou simplesmente aproveitar o que tem de melhor perto de você.</p>
-            <p>O nosso maior propósito é mostrar os melhores lugares</p>
-            <p>para aproveitar o seu dia, apontando shows, peças, história</p>
-            <p>dos lugares, e com isso curtir ainda mais o dia de viagem.</p>
+    <section class="janeiro"></section>
+ 
+        <div>
+            <p class="pp"> O Corcovado é um dos morros da cidade do Rio de Janeiro, célebre no Brasil e no mundo pela sua estátua do Cristo Redentor de 38 metros de altura.
+                O Cristo Redentor é um dos principais símbolos do país e oferece uma privilegiada vista panorâmica da cidade do Rio de Janeiro. Em 2003 foram concluídas as obras de instalação de elevadores e escadas rolantes no local. Antes, era preciso vencer 220 degraus para desfrutar da paisagem. No dia 7 de julho de 2007, a estátua do Cristo Redentor foi eleita em uma votação uma das novas sete maravilhas do mundo. A votação teve o patrocínio da ONU, porém, sem ter um caráter oficial.
+                O morro do Corcovado possui 710 metros de altura e encontra-se no Parque Nacional da Tijuca. O Corcovado situa-se ao oeste do centro da cidade, mas mesmo assim pode ser observado desde longas distâncias.
+                </p>
         </div>
-
+        
+        <img class="rio" src="../img/fundo/rio-2.jpg" alt="Rio de Janeiro">
     </section>
 
-
-
-
-
-
+                
 
 
     <!-- Script sobre o menu -->
@@ -98,7 +90,7 @@
 
     </script>
 
-    <script src="script.js"></script>
+    <script src="informacoes.js"></script>
 
     <!-- Roda pé -->
     <footer>

@@ -20,12 +20,6 @@ body{
 
 
 
-
-
-
-
-
-
 /* Nav bar menu e seus detalhes */
 nav{
     width: 11%;
@@ -110,44 +104,25 @@ form{
 .sobre{
     width: 100%;
     height: auto;
-    background-image: url(../img/fundo/fundo-rio2.jpg);
+    background-image: url(../img/fundo/fundo1.jpg);
     background-size: 100% auto;
     overflow: hidden;
 
 }
 
 .sobre h2{
-    font-size: 36px;
-    margin: 9% 0% 0%;
-    text-align: center;
+    font-size: 40px;
+}
 
+.th{
+    text-align: center;
 }
 
 .texto{
-    font-size: 25px;
+    font-size: 18px;
     margin: 9% 29% 4%;
-    width: 100%;
+    width: 50%;
 }
-.t1{
-    margin: 0% 20%;
-}
-.t2{
-
-    margin: 0% 14%;
-}
-.t3{
-
-    margin: 0% 14%;
-}
-.t4{
-
-    margin: 0% 15%;
-}
-.t5{
-
-    margin: 0% 33%;
-}
-
 
 
 

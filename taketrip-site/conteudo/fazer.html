@@ -6,65 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TakeTrip</title>
-
-    <link rel="stylesheet" href="login.css">
+    
+    <link rel="stylesheet" href="fazer.css">
 
     <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
 
     <script src="node_modules/axios/dist/axios.min.js"></script>
 
-
 </head>
 
 <body>
 
-    <!-- NAV BAR -->
-    <nav style='left:-12%'>
-        <div class="menu">
-            <ul>
-                <li>
-                    <a href="../home/index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../login/login.html" onClick="carregarLogin()">Login</a>
-                </li>
-                <li>
-                    <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
-                </li>
-            </ul>
-        </div>
-        <div class="redes-sociais">
-            <img class="rs" src="../img/face.png" alt="facebook">
-            <img class="rs" src="../img/twi.png" alt="twitter">
-            <img class="rs" src="../img/inst.png" alt="instagram">
-        </div>
-
-    </nav>
-
     <header>
-        <div class="banner"></div>
+        <div class="taketrip"></div>
         <h1 class="btn">TakeTrip</h1>
     </header>
 
-    <!-- Conteúdo -->
-    <section class="card">
 
-            <h2>Login</h2>
-
-            <div>
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Senha">
+     <!-- NAV BAR -->
+     <nav style='left:-12%'>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../home/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../login/login.html" onClick="carregarLogin()">Login</a>
+                    </li>
+                    <li>
+                        <a href="../mapas/mapas.html" onClick="carregarMapa()">Mapa</a>
+                    </li>
+                </ul>
             </div>
-
-            <div >
-                <button class="btn-1">Entrar</button>
-                <br>
-                <a class="usuario" href="senha.html">Esqueceu a senha?</a>
-                <a class="usuario" href="cadastre-se.html">Cadastre-se</a>
-                
+            <div class="redes-sociais">
+                <img class="rs" src="../img/face.png" alt="facebook">
+                <img class="rs" src="../img/twi.png" alt="twitter">
+                <img class="rs" src="../img/inst.png" alt="instagram">
             </div>
+    
+        </nav>
+
+
+    <section class="introducao"></section>
+    
+    <h2 class="titulo">O que fazer:</h2>
+    <div class="card" onclick="location.href='informacoes.html'">
+        <img src="../img/fundo/cristo.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Cristo Redentor</b></h4> 
+        </div>
+      </div>
 
     </section>
+                
+       
+
+    
+
+
+
+
+
 
 
 
@@ -94,9 +96,10 @@
 
         btn.addEventListener('click', navbar);
 
+
     </script>
 
-    <script src="login.js"></script>
+    <script src="fazer.js"></script>
 
     <!-- Roda pé -->
     <footer>
@@ -115,7 +118,6 @@
 
 
     </footer>
-
 
 </body>
 
